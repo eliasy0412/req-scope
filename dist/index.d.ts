@@ -2,11 +2,11 @@
 
 declare module './core/services/client-inspector.service';
 
-declare function clientUse(): void;
+declare function clientUse(): any;
 
 declare function clientInspector(req: any): Promise<any>;
 
-export default {
+export default Module = {
   clientUse,
   clientInspector
 };
