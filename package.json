@@ -1,6 +1,6 @@
 {
   "name": "req-scope",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "A Node.js library designed for efficient server-side extraction of client request data, providing easy access to client information such as IP address, browser type and location",
   "main": "dist/index.js",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@maxmind/geoip2-node": "^4.2.0",
+    "ip": "^2.0.1",
     "maxmind": "^4.3.17",
     "req-ban": "^3.3.1"
   }
